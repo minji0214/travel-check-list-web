@@ -1,5 +1,5 @@
 export default function StructuredData() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://travel-checklist.vercel.app';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://travel-check-list-web.vercel.app';
 
   const structuredData = {
     "@context": "https://schema.org",

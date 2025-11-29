@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://travel-checklist.vercel.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://travel-check-list-web.vercel.app'),
   title: {
     default: "해외 여행 체크리스트 - 놓치지 말고 꼼꼼히 확인하세요",
     template: "%s | 해외 여행 체크리스트",
@@ -82,11 +82,7 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   verification: {
-    // Google Search Console, Naver Search Advisor 등에서 받은 인증 코드를 추가할 수 있습니다
-    // google: "your-google-verification-code",
-    // other: {
-    //   "naver-site-verification": "your-naver-verification-code",
-    // },
+    google: "google7988f3fcd853d5e2",
   },
 };
 
